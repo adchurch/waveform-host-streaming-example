@@ -28,6 +28,7 @@ This project is intended as an example only and is distributed as open source co
 5. Open the Workspace and update the Waveform Chart channel configuration.
 6. Open *Waveform Streaming Test.lvproj*. Open *Stream Waveforms.vi*. 
 7. Update *Waveform Paths* control to match the waveforms you are streaming. 
+7. Update the *Waveform Task Trigger Channel* to match the trigger chanenl of the DAQ task. 
 8. Update *Log File Path* control to a directory where you have write access. 
 9. Run the VI. This will trigger the waveform which is configured for a 40 second acquisition. This example only supports a single capture when the VI is first run. 
 10. Use the *Samples to View* and *Offset* controls to change how much data is displayed in the chart and from what offset in the TDMS log.
