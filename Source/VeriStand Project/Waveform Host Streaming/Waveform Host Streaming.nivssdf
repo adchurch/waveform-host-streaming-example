@@ -10,7 +10,7 @@
 				<String>Waveform Host Streaming</String>
 			</Property>
 			<Property Name="Version">
-				<String>1.0.0.4</String>
+				<String>1.0.0.5</String>
 			</Property>
 			<Property Name="Creator">
 				<String />
@@ -292,7 +292,7 @@
 											<I32>1</I32>
 										</Property>
 										<Property Name="Waveform Analog Input Task">
-											<DependentNode Path="" />
+											<DependentNode Path="Targets/Controller/Hardware/Chassis/DAQ/Waveform Tasks/DAQ1" />
 										</Property>
 										<Property Name="SlowBackgroundConvert">
 											<Boolean>false</Boolean>

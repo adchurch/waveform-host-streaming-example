@@ -1,6 +1,6 @@
 # waveform-host-streaming-example
 ## Overview
-This example uses the VeriStand Host Waveform Streaming API to stream VeriStand DAQ waveforms to a host PC. The example writes the waveform data into a TDMS file and in parallel reads the synchronized wavefrom data back from the same TDMS file for display.   
+This example uses the VeriStand Host Waveform Streaming API to stream VeriStand DAQ waveforms to a host PC. The example writes the waveform data into a TDMS file and in parallel reads the time-correlated wavefrom data back from the same TDMS file for display.   
 
 ## License
 This project is intended as an example only and is distributed as open source code with the BSD-2 "Simplified" license. 
